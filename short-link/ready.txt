@@ -1,0 +1,4 @@
+Amongos Pub Golf
+This static deployment is the short entry link for the existing Amongos event.
+The Render redirect rule sends visitors directly to the current Sites address.
+No event data, API requests, credentials or GPS points are stored or proxied here.
