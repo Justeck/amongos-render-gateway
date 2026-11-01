@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: amongos-dublin-2026
+    runtime: node
+    plan: free
+    buildCommand: node --check gateway.mjs
+    startCommand: node gateway.mjs
+    healthCheckPath: /api/roster
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NODE_VERSION
+        value: 22.22.0
